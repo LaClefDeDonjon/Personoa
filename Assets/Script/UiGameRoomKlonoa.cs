@@ -39,6 +39,7 @@ public class UiGameRoom : MonoBehaviour
     {
         if (Context.phase == InputActionPhase.Started && _scriptCollision.GetColliding() == true)
         {
+            Debug.Log("Press");
             _animatorPlayer.SetBool("IsJumping", true);
             _velocity.y = _velocity.y + _jumpImpulse;
 
@@ -54,18 +55,24 @@ public class UiGameRoom : MonoBehaviour
         
         if (_scriptCollision.GetColliding() == true && _velocity.y <= 0)
         {
+            Debug.Log("Colliding With Ground or velocity <= 0");
             _velocity.y = 0f;
         }
         else if(_scriptCollision.GetColliding() == false)
         {
+
+            Debug.Log("No colliding With Ground");
             _velocity.y = _velocity.y - _gravity * Time.deltaTime;
         }
+
         Debug.Log("Velocity Y " + _velocity.y);
         
 
 
 
         Vector3 movement = CharacterController.transform.forward * Direction.y * _speedMove * Time.deltaTime;
+        movement.y = _velocity.y;
+
         CharacterController.Move(movement);
 
         CharacterController.transform.Rotate(Vector3.up * Direction.x * _speedRotate * Time.deltaTime);
@@ -77,6 +84,7 @@ public class UiGameRoom : MonoBehaviour
         else
         {
             _animatorPlayer.SetBool("IsRunning", false);
+            CharacterController.Move(CharacterController.transform.up * _velocity.y);
             
         }
 

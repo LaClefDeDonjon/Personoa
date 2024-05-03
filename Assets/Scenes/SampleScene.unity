@@ -156,8 +156,8 @@ MonoBehaviour:
   _speedRotate: 150
   CharacterController: {fileID: 905753380}
   _animatorPlayer: {fileID: 905753381}
-  _gravity: 0.4
-  _jumpImpulse: 100
+  _gravity: 2
+  _jumpImpulse: 2
   _scriptCollision: {fileID: 671442013}
 --- !u!4 &9582311
 Transform:
@@ -457,7 +457,7 @@ Transform:
   m_GameObject: {fileID: 671442011}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.21, y: 0.27, z: 3.84}
+  m_LocalPosition: {x: -0.21, y: -0.2, z: 3.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -518,7 +518,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -705,13 +705,13 @@ MonoBehaviour:
     m_ActionName: Player/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 9582309}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 9582310}
+        m_TargetAssemblyTypeName: UiGameRoom, Assembly-CSharp
+        m_MethodName: Jump
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -804,7 +804,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0.3, y: 25.5, z: 0}
+  m_Center: {x: 0.3, y: 27.2, z: 0}
 --- !u!95 &905753381 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: -4748361991329772099, guid: 2437b9f8cd7607545bae33242661a99e,
@@ -1020,6 +1020,11 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 7.4440064
       objectReference: {fileID: 0}
+    - target: {fileID: -6004772541078229335, guid: 2437b9f8cd7607545bae33242661a99e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4748361991329772099, guid: 2437b9f8cd7607545bae33242661a99e,
         type: 3}
       propertyPath: m_Controller
@@ -1078,7 +1083,7 @@ PrefabInstance:
     - target: {fileID: -3910990755373119420, guid: 2437b9f8cd7607545bae33242661a99e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.7
+      value: -31.4
       objectReference: {fileID: 0}
     - target: {fileID: -3910990755373119420, guid: 2437b9f8cd7607545bae33242661a99e,
         type: 3}
@@ -1319,6 +1324,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AABB.m_Extent.z
       value: 2.4930682
+      objectReference: {fileID: 0}
+    - target: {fileID: 716332474998737127, guid: 2437b9f8cd7607545bae33242661a99e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1975978346363704038, guid: 2437b9f8cd7607545bae33242661a99e,
         type: 3}
