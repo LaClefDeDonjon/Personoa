@@ -1,0 +1,514 @@
+fileFormatVersion: 2
+guid: 2437b9f8cd7607545bae33242661a99e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 804e1ce4c496647cfa3f1a1134187c71, type: 3}
+  _removeEmptyRootObjects: 1
+  _scaleFactor: 1
+  _maximumLod: 300
+  _readWriteEnabled: 1
+  _generateColliders: 0
+  _swapUvs: 0
+  _generateLightmapUVs: 0
+  _importBlendShapeNames: 1
+  _blendShapeFrameWeight:
+    _option: 0
+    _multiplier: 1
+  _importNormals: 0
+  _importTangents: 0
+  _importCamera: 2
+  _importAnimations: 2
+  _addAnimatorComponent: 0
+  _animationLoopTime: 1
+  _animationLoopPose: 0
+  _importMaterials: 1
+  _enableGpuInstancing: 0
+  _useSceneNameIdentifier: 1
+  _textureCompression: -50
+  optimizeGameObjects: 0
+  materials:
+  - {instanceID: 0}
+  - {instanceID: 0}
+  textures:
+  - {fileID: 2800000, guid: a3a9843df806c674f97cdad9fe4534a8, type: 3}
+  - {fileID: 2800000, guid: 7825e6e7fe2f6114288aca4e3aa6054d, type: 3}
+  hasSceneData: 1
+  hasAnimationData: 1
+  hasMaterialData: 1
+  hasTextureData: 1
+  animations:
+  - name: 0_kl_000
+  - name: 1_kll_std
+  - name: 2_kll_stdb
+  - name: 3_kll_std3
+  - name: 4_kll_std4
+  - name: 5_kl_std5
+  - name: 6_kl_std7
+  - name: 7_kl_std8
+  - name: 8_kll_yoro
+  - name: 9_kl_std9
+  - name: 10_kll_wlk
+  - name: 11_kll_wlkb
+  - name: 12_kll_run
+  - name: 13_kll_rund
+  - name: 14_kll_runb
+  - name: 15_kll_runc
+  - name: 16_kll_jmp2
+  - name: 17_kll_jpb2
+  - name: 18_kll_jatk
+  - name: 19_kll_jnag
+  - name: 20_kll_jpc
+  - name: 21_kll_tak
+  - name: 22_kll_tak2
+  - name: 23_kll_ho
+  - name: 24_kll_ho2
+  - name: 25_kll_ho3
+  - name: 26_kll_tmg
+  - name: 27_kll_tmgb
+  - name: 28_kll_cya
+  - name: 29_kll_cyb
+  - name: 30_kll_cya2
+  - name: 31_kll_cyb2
+  - name: 32_kll_atk
+  - name: 33_kll_ated
+  - name: 34_kll_get
+  - name: 35_kll_nag
+  - name: 36_kll_dmg
+  - name: 37_kll_dmgb
+  - name: 38_kll_pe
+  - name: 39_kll_ded
+  - name: 40_kll_ded2
+  - name: 41_kll_ded3
+  - name: 42_kll_hov
+  - name: 43_kll_bur
+  - name: 44_kll_sbr
+  - name: 45_kll_sbrr
+  - name: 46_kll_sbrl
+  - name: 47_kll_sbb
+  - name: 48_kll_sbbr
+  - name: 49_kll_sbbl
+  - name: 50_kl_dive
+  - name: 51_kl_rdy
+  - name: 52_kl_rid
+  - name: 53_kl_ridd
+  - name: 54_kl_ridf
+  - name: 55_kl_bkl
+  - name: 56_kl_bkr
+  - name: 57_kl_rids
+  - name: 58_kl_ridb
+  - name: 59_kl_ridbf
+  - name: 60_kl_bklb
+  - name: 61_kl_bkrb
+  - name: 62_kl_ridbs
+  - name: 63_kl_rdstf
+  - name: 64_kl_rdsts
+  - name: 65_kl_bkstl
+  - name: 66_kl_bkstr
+  - name: 67_klbkstls
+  - name: 68_klbkstrs
+  - name: 69_kl_ngf
+  - name: 70_kl_ngs
+  - name: 71_kl_ngl
+  - name: 72_kl_ngr
+  - name: 73_kl_ngls
+  - name: 74_kl_ngrs
+  - name: 75_kl_ridj1
+  - name: 76_kl_ridj2
+  - name: 77_kl_jpstf
+  - name: 78_kl_jpsts
+  - name: 79_kl_jpstl
+  - name: 80_kl_jpstr
+  - name: 81_kl_ngjf
+  - name: 82_kl_ngjs
+  - name: 83_kl_ngjl
+  - name: 84_kl_ngjr
+  - name: 85_kl_ngjls
+  - name: 86_kl_ngjrs
+  - name: 87_kl_rdhov
+  - name: 88_kl_ridj3
+  - name: 89_kl_ridj4
+  - name: 90_kl_rdbj1
+  - name: 91_kl_rdbj2
+  - name: 92_kl_rdcj1
+  - name: 93_kl_rdbj3
+  - name: 94_kl_rdbj4
+  - name: 95_kl_ac_01
+  - name: 96_kl_ac_02
+  - name: 97_kl_ac_03
+  - name: 98_kl_ac_04
+  - name: 99_kl_ac_05
+  - name: 100_kl_ac_06
+  - name: 101_klopn_01
+  - name: 102_klopn_04
+  - name: 103_klopn_05
+  - name: 104_klopn_06
+  - name: 105_klara_00
+  - name: 106_klara_01
+  - name: 107_klara_02
+  - name: 108_klnam_03
+  - name: 109_klnam_00
+  - name: 110_klnam_01
+  - name: 111_klnam_02
+  - name: 112_klnam_04
+  - name: 113_klnam_05
+  - name: 114_klnam_06
+  - name: 115_klnam_07
+  - name: 116_klnam_08
+  - name: 117_klnam_09
+  - name: 118_klnam_10
+  - name: 119_klnam_11
+  - name: 120_klnam_12
+  - name: 121_kl2da_00
+  - name: 122_kl2da_01
+  - name: 123_kl2da_02
+  - name: 124_kl2da_03
+  - name: 125_kl2da_04
+  - name: 126_kl2da_05
+  - name: 127_kl2da_06
+  - name: 128_klhok_00
+  - name: 129_klhok_01
+  - name: 130_klhok_02
+  - name: 131_klhok_03
+  - name: 132_klhok_04
+  - name: 133_klhok_05
+  - name: 134_klhok_06
+  - name: 135_klhok_07
+  - name: 136_klhok_08
+  - name: 137_klhok_09
+  - name: 138_klhik_00
+  - name: 139_klhik_01
+  - name: 140_klhik_02
+  - name: 141_klhik_03
+  - name: 142_klhik_04
+  - name: 143_klhik_05
+  - name: 144_klhik_06
+  - name: 145_klkur_00
+  - name: 146_klkur_01
+  - name: 147_klkur_02
+  - name: 148_klkur_03
+  - name: 149_klkur_04
+  - name: 150_kljoy_00
+  - name: 151_kljoy_01
+  - name: 152_kljoy_02
+  - name: 153_kljoy_03
+  - name: 154_kljoy_04
+  - name: 155_kljoy_05
+  - name: 156_kljoy_06
+  - name: 157_kljoy_07
+  - name: 158_kljoy_08
+  - name: 159_kljoy_09
+  - name: 160_klbib_00
+  - name: 161_klbib_01
+  - name: 162_klbib_02
+  - name: 163_klbib_03
+  - name: 164_klbib_04
+  - name: 165_klbib_05
+  - name: 166_klbib_06
+  - name: 167_klkai_00
+  - name: 168_klkai_01
+  - name: 169_klel1_00
+  - name: 170_klel1_01
+  - name: 171_klel1_02
+  - name: 172_klel1_03
+  - name: 173_klel1_04
+  - name: 174_klel1_05
+  - name: 175_klel1_06
+  - name: 176_klel1_07
+  - name: 177_klel2_00
+  - name: 178_klel2_01
+  - name: 179_klel2_02
+  - name: 180_klel2_05
+  - name: 181_klel2_06
+  - name: 182_kljgs_00
+  - name: 183_kljgs_01
+  - name: 184_kljgs_02
+  - name: 185_kljgs_03
+  - name: 186_kljgs_04
+  - name: 187_kljgs_05
+  - name: 188_kljgs_06
+  - name: 189_kljgs_07
+  - name: 190_kl_runs
+  - name: 191_klta1_00
+  - name: 192_klta1_01
+  - name: 193_klta1_02
+  - name: 194_klta1_03
+  - name: 195_klta1_04
+  - name: 196_klta2_00
+  - name: 197_klvol_00
+  - name: 198_klvol_01
+  - name: 199_klvol_02
+  - name: 200_klvol_03
+  - name: 201_klvol_04
+  - name: 202_klvol_05
+  - name: 203_klvol_06
+  - name: 204_klvol_07
+  - name: 205_klvol_08
+  - name: 206_klvol_09
+  - name: 207_klvo5_00
+  - name: 208_klvo5_01
+  - name: 209_klvo5_02
+  - name: 210_klvo6_00
+  - name: 211_klvo6_01
+  - name: 212_klvo6_02
+  - name: 213_klvo6_03
+  - name: 214_klvo6_04
+  - name: 215_klhb1_00
+  - name: 216_klhb1_01
+  - name: 217_klhb1_02
+  - name: 218_klhb1_03
+  - name: 219_klmi1_00
+  - name: 220_klmi1_01
+  - name: 221_klmi1_02
+  - name: 222_klmi1_03
+  - name: 223_klmi1_04
+  - name: 224_klmi1_05
+  - name: 225_klmi1_06
+  - name: 226_klmi1_07
+  - name: 227_klmi1s00
+  - name: 228_klmi1s01
+  - name: 229_klmi2_00
+  - name: 230_klmi2_01
+  - name: 231_klmi2s00
+  - name: 232_klmi2s01
+  - name: 233_klmi2s02
+  - name: 234_klmi3_00
+  - name: 235_klmi3_01
+  - name: 236_klmi4_00
+  - name: 237_klmi4_01
+  - name: 238_klmi4_02
+  - name: 239_klmi4_03
+  - name: 240_klmi4_04
+  - name: 241_klma1_00
+  - name: 242_klma1_01
+  - name: 243_klma1_02
+  - name: 244_klma1_03
+  - name: 245_klma1_04
+  - name: 246_klng2_00
+  - name: 247_klng3_00
+  - name: 248_klng3_01
+  - name: 249_klng3_02
+  - name: 250_klng3_03
+  - name: 251_klse1_00
+  - name: 252_klse1_01
+  - name: 253_klse1_02
+  - name: 254_klse1_03
+  - name: 255_klse1_04
+  - name: 256_klse1_05
+  - name: 257_klse1_06
+  - name: 258_klse1_07
+  - name: 259_klse2_00
+  - name: 260_klse2_01
+  - name: 261_klse2_02
+  - name: 262_klse2_03
+  - name: 263_klrs1_00
+  - name: 264_klrs1_01
+  - name: 265_klrs1_02
+  - name: 266_klrs1_03
+  - name: 267_klrs1_04
+  - name: 268_klrs1_05
+  - name: 269_klrs1_06
+  - name: 270_klrs2_00
+  - name: 271_klhb2_00
+  - name: 272_klhak_00
+  - name: 273_klhak_01
+  - name: 274_klhak_02
+  - name: 275_klhak_03
+  - name: 276_klhak_04
+  - name: 277_klhak_05
+  - name: 278_klhak_06
+  - name: 279_klhak_07
+  - name: 280_klhb3_00
+  - name: 281_klhb3_01
+  - name: 282_klhb3_02
+  - name: 283_klhb3_03
+  - name: 284_klhb3_04
+  - name: 285_klkn2_00
+  - name: 286_klkn2_01
+  - name: 287_klkn2_02
+  - name: 288_klkn2_03
+  - name: 289_klkn2_04
+  - name: 290_klkn2_05
+  - name: 291_klkn2_06
+  - name: 292_klkn2_07
+  - name: 293_klkn1_00
+  - name: 294_klkn3_00
+  - name: 295_klkn3_01
+  - name: 296_kl_ext5
+  - name: 297_kl_ext7
+  - name: 298_klbo2_00
+  - name: 299_klbo2_01
+  - name: 300_klbo2_02
+  - name: 301_klbo2_03
+  - name: 302_klbo2_04
+  - name: 303_klbo2_05
+  - name: 304_klbo2_06
+  - name: 305_klbo2_07
+  - name: 306_klbo2_08
+  - name: 307_klbo2_09
+  - name: 308_klbo3_00
+  - name: 309_klbo3_01
+  - name: 310_klbo3_02
+  - name: 311_klbo3_03
+  - name: 312_klbo3_04
+  - name: 313_klbo3_05
+  - name: 314_klbo3_06
+  - name: 315_klbo3_07
+  - name: 316_klbo3_08
+  - name: 317_klbo3_09
+  - name: 318_klbo3_10
+  - name: 319_klbo3_11
+  - name: 320_klbo1_00
+  - name: 321_klbo1_01
+  - name: 322_klbo1_02
+  - name: 323_klbo1_03
+  - name: 324_klbo4_00
+  - name: 325_klbo4_01
+  - name: 326_klbo4_02
+  - name: 327_klbo4_03
+  - name: 328_klbo4_04
+  - name: 329_klbo4_05
+  - name: 330_klbo4_06
+  - name: 331_klvo2_00
+  - name: 332_klvo2_01
+  - name: 333_klvo2_02
+  - name: 334_klvo3_00
+  - name: 335_klvo3_01
+  - name: 336_klvo3_02
+  - name: 337_klvo4_00
+  - name: 338_klvo4_01
+  - name: 339_klvo4_02
+  - name: 340_klvo4_03
+  - name: 341_klvo4_04
+  - name: 342_klvo4_05
+  - name: 343_klvo4_06
+  - name: 344_klvo4_07
+  - name: 345_klmi5_00
+  - name: 346_klmi5_01
+  - name: 347_klmi5_02
+  - name: 348_klmi5_03
+  - name: 349_klmi5_04
+  - name: 350_klmi5_05
+  - name: 351_klmi5_06
+  - name: 352_klmi5_07
+  - name: 353_klmi5_08
+  - name: 354_klmi6_00
+  - name: 355_klmi6_01
+  - name: 356_klmi6_02
+  - name: 357_klmi6_03
+  - name: 358_klmi6_04
+  - name: 359_klmi7_00
+  - name: 360_klmi7_01
+  - name: 361_klmi7_02
+  - name: 362_klrs3_00
+  - name: 363_klrs3_01
+  - name: 364_klrs3_02
+  - name: 365_klrs3_03
+  - name: 366_klrs4_00
+  - name: 367_klrs4_01
+  - name: 368_klrs4_02
+  - name: 369_klbo5_00
+  - name: 370_klbo5_01
+  - name: 371_klbo5_02
+  - name: 372_klbo5_03
+  - name: 373_klbo5_04
+  - name: 374_klbo5_05
+  - name: 375_klbo5_06
+  - name: 376_klbo5_07
+  - name: 377_klbo5s00
+  - name: 378_klbo5s01
+  - name: 379_klbo5s02
+  - name: 380_klbo6_00
+  - name: 381_klbo6_01
+  - name: 382_klbo6_02
+  - name: 383_klbo6_03
+  - name: 384_klbo7_00
+  - name: 385_klbo7_01
+  - name: 386_klbo7_02
+  - name: 387_klbo7_03
+  - name: 388_klbo7_04
+  - name: 389_klbo7_05
+  - name: 390_klkn4_00
+  - name: 391_klkn4_01
+  - name: 392_klkn4_02
+  - name: 393_klkn4_03
+  - name: 394_klkn4_04
+  - name: 395_klkn4_05
+  - name: 396_klkn4_06
+  - name: 397_klkn4_07
+  - name: 398_klkn4_08
+  - name: 399_klkn4_09
+  - name: 400_klopn_00
+  - name: 401_klopn_02
+  - name: 402_klopn_03
+  - name: 403_klopn_07
+  - name: 404_kledg_00
+  - name: 405_kledg_01
+  - name: 406_kledg_02
+  - name: 407_kledg_03
+  - name: 408_kledg_04
+  - name: 409_kledg_05
+  - name: 410_kledg_06
+  - name: 411_kledg_07
+  - name: 412_kledg_08
+  - name: 413_kledg_09
+  - name: 414_kledg_10
+  - name: 415_kledg_11
+  - name: 416_kledg_20
+  - name: 417_kledg_12
+  - name: 418_kledg_13
+  - name: 419_kledg_21
+  - name: 420_kledg_14
+  - name: 421_kledg_15
+  - name: 422_kledg_16
+  - name: 423_kledg_18
+  - name: 424_kledg_19
+  - name: 425_kledg_17
+  - name: 426_kledg_22
+  - name: 427_klba1_00
+  - name: 428_klba1_01
+  - name: 429_klba1_02
+  - name: 430_klba1_03
+  - name: 431_klba1_04
+  - name: 432_klba2_00
+  - name: 433_klba2_01
+  - name: 434_klba2_02
+  - name: 435_klba2_03
+  - name: 436_klba2_04
+  - name: 437_klel3_00
+  - name: 438_klel3_01
+  - name: 439_klel3_02
+  - name: 440_klel3_03
+  - name: 441_klel3_04
+  - name: 442_klel3_05
+  - name: 443_klel3_06
+  - name: 444_klel3_07
+  - name: 445_klel3_08
+  - name: 446_klba3_00
+  - name: 447_klba3_01
+  - name: 448_klba3_02
+  - name: 449_klba5_00
+  - name: 450_klba5_01
+  - name: 451_klba4_00
+  - name: 452_klba4_01
+  - name: 453_klba4_02
+  - name: 454_klba4_03
+  - name: 455_klba4_04
+  - name: 456_klba4_05
+  - name: 457_klba4_06
+  - name: 458_klba4_07
+  - name: 459_klba4_08
+  _extensions: []
+  _textures:
+  - texture: {fileID: 2800000, guid: a3a9843df806c674f97cdad9fe4534a8, type: 3}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {fileID: 2800000, guid: 7825e6e7fe2f6114288aca4e3aa6054d, type: 3}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  _mainAssetIdentifier: scenes/Scene
+  _importPlugins: []
